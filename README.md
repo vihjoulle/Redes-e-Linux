@@ -2,6 +2,9 @@ Topologia da rede
 
 ![Topologia](https://github.com/vihjoulle/Redes-e-Linux/assets/73195664/aceffd4a-1f30-4f05-8365-60a063065c42)
 
+RANGE de IPs = 10.171.62.x
+NAME User = spabc000x
+
 Teste de conexão com o ping dos ips da maquinas no CMD.
 
 Nesta imagem utilizamos o CMD da maquina 1 para pingar os IPS da maquina 3 e 4.
