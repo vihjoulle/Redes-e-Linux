@@ -1,14 +1,16 @@
-Trabalhando com instancias EC2 na AWS
+### Trabalhando com instancias EC2 na AWS
 
-About
+## 🎯About
 Nesta etapa, vamos explorar o Amazon EC2, um serviço popular de infraestrutura como serviço (IaaS) oferecido pela Amazon Web Services (AWS).
 
-Technologias
-EC2
-Putty
-Elastic Block Store (EBS)
+## 🚀Technologias
+Para este exercício utilizamos a seguintes tecnologias.
 
-O Desafio
+✅ EC2
+✅ Putty
+✅ Elastic Block Store (EBS)
+
+## 🏁O Desafio
 1. Configuração da instância EC2
 2. Conexão via SSH
 3. Gerenciando o armazenamento
@@ -17,7 +19,7 @@ O Desafio
 6. Explorando recursos:
 
 
-Configuração da Instancia EC2
+🚩 <b>1.Configuração da Instancia EC2</b>
 
 Dentro do ambiente da AWS, criamos a Instancia EC2 com o nome "BandaMiguel", esta instancia utiliza uma imagem "Amazon Linux 2 AMI" com um tipo t2.micro.
 ![NomeInstancia](https://github.com/vihjoulle/Redes-e-Linux-Essentials-para-AWS/assets/73195664/1782bc89-73d5-4c0b-a541-eedd9fa23fe9)
