@@ -19,7 +19,7 @@ Para este exercício utilizamos a seguintes tecnologias.
 6. Explorando recursos:
 
 
-🚩 <b>1.Configuração da Instancia EC2</b>
+# 🚩 <b>1.Configuração da Instancia EC2</b>
 
 Dentro do ambiente da AWS, criamos a Instancia EC2 com o nome "BandaMiguel", esta instancia utiliza uma imagem "Amazon Linux 2 AMI" com um tipo t2.micro.
 
