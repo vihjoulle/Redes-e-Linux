@@ -34,19 +34,20 @@ Também criamos um par de chave para conexão com segurança a nossa maquina vir
 
 
 Criamos um grupo de segurança nas configurações de rede, com as seguintes regras selecionadas:
+
 ![Configurações de rede](https://github.com/vihjoulle/Redes-e-Linux-Essentials-para-AWS/assets/73195664/2157c017-31d8-4cd9-97a9-508ca70d908d)
 
-<Br> 2. Conexão via SSH</Br>
+🚩 <B>2. Conexão via SSH</B>
 
 Após baixarmos a chave SSH na nossa maquina, a utilizamos o comando com o endereço IP público da nossa instancia EC2:
 
-ssh -i ~/Downloads/my-key-pair.pem ec2-user@3.123.45.67(Exemplo da nossa chave).
+</Br>ssh -i ~/Downloads/my-key-pair.pem ec2-user@3.123.45.67(Exemplo da nossa chave).</Br>
 
 ![Acesso SSh](https://github.com/vihjoulle/Redes-e-Linux-Essentials-para-AWS/assets/73195664/751b62e5-48ed-4b5a-b2b1-7c193a033ff8)
 
 
 
-<Br>3. Gerenciando o armazenamento</Br>
+🚩 <B>3. Gerenciando o armazenamento</B>
 
 Dentro do console da AWS, navegamos até "Volume", em "Elastic Block Store(EBS)" e clicamos em "Create Volume".
 
@@ -61,7 +62,8 @@ Aumentamos o tamanho do nosso volume para 125Gb, um ponto importante a mencionar
 
 
 
-Formatando e montando o volume
+🚩 <b>4. Formatando e montando o volume</b>
+
 Conectamos à instância EC2 via SSH, listamos os dispositivos de bloco para encontrar o novo volume criado o camando utilizado foi o lsblk :
 
 ![lsblk](https://github.com/vihjoulle/Redes-e-Linux-Essentials-para-AWS/assets/73195664/7a3df055-4c2b-4fb7-98ac-c9c842409ccc)
@@ -87,7 +89,7 @@ Para montar o volume, utilizamos:
 
 
 
-<Br>4. Criação de arquivos</Br>
+🚩 <B>5. Criação de arquivos</B>
 
 Navegamos até o diretorio que foi montado:
 
@@ -99,7 +101,7 @@ Criamos um arquivo de texto simples denominado testfile.txt:
 ![testfile](https://github.com/vihjoulle/Redes-e-Linux-Essentials-para-AWS/assets/73195664/31fdaab3-feb8-431d-9d5c-4de2f52938fd)
 
 
-Explorando Recursos
+🚩 <b> 6. Explorando Recursos</B>
 
 Utilizamos o recurso ls -l para verificar o conteúdo do volume montado:
 
