@@ -19,7 +19,7 @@ Para este exercício utilizamos a seguintes tecnologias.
 6. Explorando recursos:
 
 
-# 🚩 <b>1.Configuração da Instancia EC2</b>
+#### 🚩 <b>1.Configuração da Instancia EC2</b>
 
 Dentro do ambiente da AWS, criamos a Instancia EC2 com o nome "BandaMiguel", esta instancia utiliza uma imagem "Amazon Linux 2 AMI" com um tipo t2.micro.
 
@@ -37,7 +37,7 @@ Criamos um grupo de segurança nas configurações de rede, com as seguintes reg
 
 ![Configurações de rede](https://github.com/vihjoulle/Redes-e-Linux-Essentials-para-AWS/assets/73195664/2157c017-31d8-4cd9-97a9-508ca70d908d)
 
-🚩 <B>2. Conexão via SSH</B>
+#### 🚩 <B>2. Conexão via SSH</B>
 
 Após baixarmos a chave SSH na nossa maquina, a utilizamos o comando com o endereço IP público da nossa instancia EC2:
 
@@ -47,7 +47,7 @@ Após baixarmos a chave SSH na nossa maquina, a utilizamos o comando com o ender
 
 
 
-🚩 <B>3. Gerenciando o armazenamento</B>
+#### 🚩 <B>3. Gerenciando o armazenamento</B>
 
 Dentro do console da AWS, navegamos até "Volume", em "Elastic Block Store(EBS)" e clicamos em "Create Volume".
 
@@ -62,7 +62,7 @@ Aumentamos o tamanho do nosso volume para 125Gb, um ponto importante a mencionar
 
 
 
-🚩 <b>4. Formatando e montando o volume</b>
+#### 🚩 <b>4. Formatando e montando o volume</b>
 
 Conectamos à instância EC2 via SSH, listamos os dispositivos de bloco para encontrar o novo volume criado o camando utilizado foi o lsblk :
 
@@ -89,7 +89,7 @@ Para montar o volume, utilizamos:
 
 
 
-🚩 <B>5. Criação de arquivos</B>
+#### 🚩 <B>5. Criação de arquivos</B>
 
 Navegamos até o diretorio que foi montado:
 
@@ -101,7 +101,7 @@ Criamos um arquivo de texto simples denominado testfile.txt:
 ![testfile](https://github.com/vihjoulle/Redes-e-Linux-Essentials-para-AWS/assets/73195664/31fdaab3-feb8-431d-9d5c-4de2f52938fd)
 
 
-🚩 <b> 6. Explorando Recursos</B>
+#### 🚩 <b> 6. Explorando Recursos</B>
 
 Utilizamos o recurso ls -l para verificar o conteúdo do volume montado:
 
